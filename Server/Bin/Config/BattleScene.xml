@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by et8 (et8) -->
+<Nodes>
+	<Node ID="1001" Race="1" Name="艾尔文森林" Scene="World_1001" TransportPos="0,0,0"/>
+	<Node ID="1002" Race="1" Name="西部荒野" Scene="World_1002"/>
+	<Node ID="1003" Race="1" Name="暮色森林" Scene="World_1003"/>
+	<Node ID="1004" Race="1" Name="赤脊山" Scene="World_1004"/>
+	<Node ID="1005" Race="1" Name="悲伤沼泽" Scene="World_1005"/>
+	<Node ID="1006" Race="2" Name="杜洛塔" Scene="World_1006"/>
+	<Node ID="1007" Race="2" Name="莫高雷" Scene="World_1007"/>
+	<Node ID="1008" Race="2" Name="贫瘠之地" Scene="World_1008"/>
+	<Node ID="1009" Race="2" Name="灰谷" Scene="World_1009"/>
+	<Node ID="1010" Race="2" Name="费伍德森林" Scene="World_1010"/>
+</Nodes>

@@ -1,0 +1,10 @@
+E:\Server\server_bloodsword\Server\LibNetClient\obj\Debug\LibNetClient.csprojResolveAssemblyReference.cache
+E:\Server\server_bloodsword\Server\Bin\LibNetClient.dll
+E:\Server\server_bloodsword\Server\Bin\LibNetClient.pdb
+E:\Server\server_bloodsword\Server\LibNetClient\obj\Debug\LibNetClient.dll
+E:\Server\server_bloodsword\Server\LibNetClient\obj\Debug\LibNetClient.pdb
+E:\Project\project_bloodsword3\Server\Bin\LibNetClient.dll
+E:\Project\project_bloodsword3\Server\Bin\LibNetClient.pdb
+E:\Project\project_bloodsword3\Server\LibNetClient\obj\Debug\LibNetClient.csprojResolveAssemblyReference.cache
+E:\Project\project_bloodsword3\Server\LibNetClient\obj\Debug\LibNetClient.dll
+E:\Project\project_bloodsword3\Server\LibNetClient\obj\Debug\LibNetClient.pdb

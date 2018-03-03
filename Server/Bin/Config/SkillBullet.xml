@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+	<Node ID="100201" BulletType="1" SplitNum="0" SplitAngle="0" FlyRange="10" FlyPierce="false" FlySpeedH="5" FlySpeedV="0" FlyTrack="true" FlyBounceNum="0" BulletEffect="bullet_ice"/>
+	<Node ID="100202" BulletType="3" SplitNum="0" SplitAngle="0" FlyRange="10" FlyPierce="false" FlySpeedH="5" FlySpeedV="0" FlyTrack="true" FlyBounceNum="0" BulletEffect="bullet_ice"/>
+
+  <Node ID="100301" BulletType="1" SplitNum="0" SplitAngle="0" FlyRange="10" FlyPierce="false" FlySpeedH="5" FlySpeedV="0" FlyTrack="true" FlyBounceNum="0" BulletEffect="bullet_fire"/>
+  <Node ID="100302" BulletType="4" SplitNum="5" SplitAngle="60" FlyRange="10" FlyPierce="true" FlySpeedH="5" FlySpeedV="0" FlyTrack="false" FlyBounceNum="0" BulletEffect="bullet_fire"/>
+
+  <Node ID="100207" BulletType="5" SplitNum="0" SplitAngle="0" FlyRange="10" FlyPierce="true" FlySpeedH="7" FlySpeedV="0" FlyTrack="false" FlyBounceNum="0" BulletEffect="bullet_boomrang"/>
+
+</Nodes>

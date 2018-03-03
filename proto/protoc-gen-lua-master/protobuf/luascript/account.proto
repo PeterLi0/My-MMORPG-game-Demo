@@ -1,0 +1,35 @@
+package account;
+
+message ReqRegister
+{
+	required string	account		= 1;
+	required string password	= 2;
+}
+
+message RespRegister
+{
+	required uint32 msgtips		= 1;
+}
+
+message ReqLogin
+{
+	required string account		= 1;
+	required string password 	= 2;
+}
+
+message RespLogin
+{
+	required string account 	= 1;
+	required uint32 msgtips		= 2;
+}
+
+message ReqOffline
+{
+	
+}
+
+message RespOffline
+{
+	required uint32 msgtips		= 1;
+}
+

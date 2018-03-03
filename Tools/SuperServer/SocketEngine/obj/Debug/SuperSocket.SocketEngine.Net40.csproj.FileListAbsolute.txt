@@ -1,0 +1,6 @@
+E:\Project\project_bloodsword3\Tools\SuperServer\SocketEngine\obj\Debug\SuperSocket.SocketEngine.Net40.csprojResolveAssemblyReference.cache
+E:\Project\project_bloodsword3\Tools\SuperServer\SocketEngine\obj\Debug\SuperSocket.SocketEngine.dll
+E:\Project\project_bloodsword3\Tools\SuperServer\SocketEngine\obj\Debug\SuperSocket.SocketEngine.pdb
+E:\Project\project_bloodsword3\Tools\SuperServer\Bin\SuperSocket.SocketEngine.dll
+E:\Project\project_bloodsword3\Tools\SuperServer\Bin\SuperSocket.SocketEngine.pdb
+E:\Project\project_bloodsword3\Tools\SuperServer\Bin\SuperSocket.SocketEngine.XML

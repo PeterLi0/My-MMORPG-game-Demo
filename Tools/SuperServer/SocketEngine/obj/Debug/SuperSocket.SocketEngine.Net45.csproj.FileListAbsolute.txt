@@ -1,0 +1,12 @@
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\bin\Debug\SuperSocket.SocketEngine.XML
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\bin\Debug\SuperSocket.SocketEngine.dll
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\bin\Debug\SuperSocket.SocketEngine.pdb
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\bin\Debug\SuperSocket.Common.dll
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\bin\Debug\SuperSocket.SocketBase.dll
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\bin\Debug\SuperSocket.Common.pdb
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\bin\Debug\SuperSocket.Common.xml
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\bin\Debug\SuperSocket.SocketBase.pdb
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\bin\Debug\SuperSocket.SocketBase.xml
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\obj\Debug\SuperSocket.SocketEngine.Net45.csprojResolveAssemblyReference.cache
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\obj\Debug\SuperSocket.SocketEngine.dll
+E:\Project\project_bloodsword3\Tools\SuperSocket(1.6.6).Source\SocketEngine\obj\Debug\SuperSocket.SocketEngine.pdb

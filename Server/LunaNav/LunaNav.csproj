@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{17C48C7E-94A7-4E5C-80BC-385B4DEC5674}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LunaNav</RootNamespace>
+    <AssemblyName>LunaNav</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Luna3D, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\Luna3D.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Crowd\Crowd.cs" />
+    <Compile Include="Crowd\CrowdAgent.cs" />
+    <Compile Include="Crowd\CrowdAgentAnimation.cs" />
+    <Compile Include="Crowd\CrowdAgentDebugInfo.cs" />
+    <Compile Include="Crowd\CrowdAgentParams.cs" />
+    <Compile Include="Crowd\CrowdAgentState.cs" />
+    <Compile Include="Crowd\CrowdNeighbor.cs" />
+    <Compile Include="Crowd\LocalBoundary.cs" />
+    <Compile Include="Crowd\MoveRequestState.cs" />
+    <Compile Include="Crowd\ObstacleAvoidanceDebugData.cs" />
+    <Compile Include="Crowd\ObstacleAvoidanceParams.cs" />
+    <Compile Include="Crowd\ObstacleAvoidanceQuery.cs" />
+    <Compile Include="Crowd\ObstacleCircle.cs" />
+    <Compile Include="Crowd\ObstacleSegment.cs" />
+    <Compile Include="Crowd\PathCorridor.cs" />
+    <Compile Include="Crowd\PathQueue.cs" />
+    <Compile Include="Crowd\ProximityGrid.cs" />
+    <Compile Include="Crowd\UpdateFlags.cs" />
+    <Compile Include="Data\BoundsItem.cs" />
+    <Compile Include="Data\BuildContourFlags.cs" />
+    <Compile Include="Data\ChunkyTriMesh.cs" />
+    <Compile Include="Data\ChunkyTriMeshNode.cs" />
+    <Compile Include="Data\CompactCell.cs" />
+    <Compile Include="Data\CompactHeightfield.cs" />
+    <Compile Include="Data\CompactSpan.cs" />
+    <Compile Include="Data\Config.cs" />
+    <Compile Include="Data\Contour.cs" />
+    <Compile Include="Data\ContourSet.cs" />
+    <Compile Include="Data\DetailPolyMesh.cs" />
+    <Compile Include="Data\Edge.cs" />
+    <Compile Include="Data\Geometry.cs" />
+    <Compile Include="Data\HeightField.cs" />
+    <Compile Include="Data\HeightPatch.cs" />
+    <Compile Include="Data\Helper.cs" />
+    <Compile Include="Data\IntArray.cs" />
+    <Compile Include="Data\NavMeshCreateParams.cs" />
+    <Compile Include="Data\PolyMesh.cs" />
+    <Compile Include="Data\RecastVertex.cs" />
+    <Compile Include="Data\Region.cs" />
+    <Compile Include="Data\Span.cs" />
+    <Compile Include="Data\SpanPool.cs" />
+    <Compile Include="Detour\BVNode.cs" />
+    <Compile Include="Detour\CompareItemX.cs" />
+    <Compile Include="Detour\CompareItemY.cs" />
+    <Compile Include="Detour\CompareItemZ.cs" />
+    <Compile Include="Detour\Link.cs" />
+    <Compile Include="Detour\MeshHeader.cs" />
+    <Compile Include="Detour\MeshTile.cs" />
+    <Compile Include="Detour\NavMesh.cs" />
+    <Compile Include="Detour\NavMeshBuilder.cs" />
+    <Compile Include="Detour\NavMeshParams.cs" />
+    <Compile Include="Detour\NavMeshQuery.cs" />
+    <Compile Include="Detour\Node.cs" />
+    <Compile Include="Detour\NodePool.cs" />
+    <Compile Include="Detour\NodeQueue.cs" />
+    <Compile Include="Detour\OffMeshConnection.cs" />
+    <Compile Include="Detour\Poly.cs" />
+    <Compile Include="Detour\PolyDetail.cs" />
+    <Compile Include="Detour\PolyState.cs" />
+    <Compile Include="Detour\QueryData.cs" />
+    <Compile Include="Detour\QueryFilter.cs" />
+    <Compile Include="Detour\SegInterval.cs" />
+    <Compile Include="Detour\Status.cs" />
+    <Compile Include="Detour\TileState.cs" />
+    <Compile Include="Main\DetourActor.cs" />
+    <Compile Include="Main\NavMeshSerializer.cs" />
+    <Compile Include="Main\OffMeshConnector.cs" />
+    <Compile Include="Main\RecastNavMesh.cs" />
+    <Compile Include="Main\RecastNavMeshQuery.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+	<Node ID="100102" AreaCenter="2" AreaShape="1" AreaArg1="5" AOEEffect="aoe_down"/>
+	<Node ID="100103" AreaCenter="1" AreaShape="3" AreaArg1="5" AreaArg2="180" AOEEffect="aoe_down"/>
+  
+	<Node ID="100203" AreaCenter="2" AreaShape="1" AreaArg1="5" AreaArg2="0" AOEEffect="aoe_ice"/>
+  
+  
+	<Node ID="4" AreaCenter="0" AreaShape="0" AreaArg1="0" AreaArg2="0" AOEEffect="a"/>
+	<Node ID="5" AreaCenter="0" AreaShape="0" AreaArg1="0" AreaArg2="0" AOEEffect="a"/>
+	<Node ID="6" AreaCenter="0" AreaShape="0" AreaArg1="0" AreaArg2="0" AOEEffect="a"/>
+</Nodes>

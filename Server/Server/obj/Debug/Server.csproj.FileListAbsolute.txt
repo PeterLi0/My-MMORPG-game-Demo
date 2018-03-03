@@ -1,0 +1,49 @@
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\Server\bin\Debug\Server.exe.config
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\Bin\Server.exe.config
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\Bin\Server.exe
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\Bin\Server.pdb
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\Server\obj\Debug\Server.exe
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\Server\obj\Debug\Server.pdb
+E:\Server\server_bloodsword\Code\FuncModule\Server\Bin\Server.exe.config
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\obj\Debug\Server.exe
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\obj\Debug\Server.pdb
+E:\Server\server_bloodsword\Code\FuncModule\Server\Bin\Server.exe
+E:\Server\server_bloodsword\Code\FuncModule\Server\Bin\Server.pdb
+E:\Server\server_bloodsword\Code\FuncModule\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Code\Project\project_bloodsword3\Server\Bin\Server.exe.config
+D:\Code\Project\project_bloodsword3\Server\Server\obj\Debug\Server.exe
+D:\Code\Project\project_bloodsword3\Server\Server\obj\Debug\Server.pdb
+D:\Code\Project\project_bloodsword3\Server\Bin\Server.exe
+D:\Code\Project\project_bloodsword3\Server\Bin\Server.pdb
+D:\Code\Project\project_bloodsword3\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+E:\Project\project_bloodsword3\Server\Bin\Server.exe.config
+E:\Project\project_bloodsword3\Server\Server\obj\Debug\Server.exe
+E:\Project\project_bloodsword3\Server\Server\obj\Debug\Server.pdb
+E:\Project\project_bloodsword3\Server\Bin\Server.exe
+E:\Project\project_bloodsword3\Server\Bin\Server.pdb
+E:\Project\project_bloodsword3\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Education\Project\project_bloodsword3\Server\Bin\Server.exe.config
+D:\Education\Project\project_bloodsword3\Server\Server\obj\Debug\Server.exe
+D:\Education\Project\project_bloodsword3\Server\Server\obj\Debug\Server.pdb
+D:\Education\Project\project_bloodsword4\Server\Bin\Server.exe.config
+D:\Education\Project\project_bloodsword4\Server\Server\obj\Debug\Server.exe
+D:\Education\Project\project_bloodsword4\Server\Server\obj\Debug\Server.pdb
+D:\Education\Project\project_bloodsword4\Server\Bin\Server.exe
+D:\Education\Project\project_bloodsword4\Server\Bin\Server.pdb
+D:\Education\Project\project_bloodsword4\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+E:\Project\project_bloodsword4\Server\Bin\Server.exe.config
+E:\Project\project_bloodsword4\Server\Server\obj\Debug\Server.exe
+E:\Project\project_bloodsword4\Server\Server\obj\Debug\Server.pdb
+E:\Project\project_bloodsword4\Server\Bin\Server.exe
+E:\Project\project_bloodsword4\Server\Bin\Server.pdb
+E:\Project\project_bloodsword4\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+E:\Lesson III\project_bloodsword4\Server\Bin\Server.exe.config
+E:\Lesson III\project_bloodsword4\Server\Server\obj\Debug\Server.exe
+E:\Lesson III\project_bloodsword4\Server\Server\obj\Debug\Server.pdb
+E:\Lesson III\project_bloodsword4(1)\Server\Bin\Server.exe.config
+E:\Lesson III\project_bloodsword4(1)\Server\Server\obj\Debug\Server.exe
+E:\Lesson III\project_bloodsword4(1)\Server\Server\obj\Debug\Server.pdb
+F:\参考文件\project_bloodsword4(1)\Server\Bin\Server.exe.config
+F:\参考文件\project_bloodsword4(1)\Server\Server\obj\Debug\Server.exe
+F:\参考文件\project_bloodsword4(1)\Server\Server\obj\Debug\Server.pdb

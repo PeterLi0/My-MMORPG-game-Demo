@@ -1,0 +1,23 @@
+
+import "common.proto";
+
+
+
+// 请求好友列表
+message ReqFriendList
+{
+	required int32 characterid = 1;
+}
+
+// 好友列表应答
+message RspFriendList
+{
+	repeated common.FriendInfo infos = 1;
+}
+
+message ReqAddFriend
+{
+	required int32 characterid = 1;
+}
+
+

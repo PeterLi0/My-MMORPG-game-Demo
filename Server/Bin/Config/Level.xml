@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+	<Node ID="1001" No="1" Name="关云长温酒斩华雄" Scene="Map_1001"/>
+	<Node ID="1002" No="2" Name="众联军陈兵虎牢关" Scene="Map_1002"/>
+	<Node ID="1003" No="3" Name="关云长温酒斩华雄" Scene="Map_1001"/>
+	<Node ID="1004" No="4" Name="关云长温酒斩华雄" Scene="Map_1003"/>
+	<Node ID="1005" No="5" Name="关云长温酒斩华雄" Scene="Map_1004"/>
+	<Node ID="1006" No="6" Name="关云长温酒斩华雄" Scene="Map_1002"/>
+	<Node ID="1007" No="7" Name="关云长温酒斩华雄" Scene="Map_1001"/>
+	<Node ID="1008" No="8" Name="关云长温酒斩华雄" Scene="Map_1005"/>
+	<Node ID="1009" No="9" Name="关云长温酒斩华雄" Scene="Map_1006"/>
+	<Node ID="1010" No="10" Name="关云长温酒斩华雄" Scene="Map_1001"/>
+  <Node ID="1011" No="11" Name="关云长温酒斩华雄" Scene="Map_1001"/>
+  <Node ID="1012" No="12" Name="众联军陈兵虎牢关" Scene="Map_1002"/>
+  <Node ID="1013" No="13" Name="关云长温酒斩华雄" Scene="Map_1001"/>
+  <Node ID="1014" No="14" Name="关云长温酒斩华雄" Scene="Map_1003"/>
+  <Node ID="1015" No="15" Name="关云长温酒斩华雄" Scene="Map_1004"/>
+  <Node ID="1016" No="16" Name="关云长温酒斩华雄" Scene="Map_1002"/>
+  <Node ID="1017" No="17" Name="关云长温酒斩华雄" Scene="Map_1001"/>
+  <Node ID="1018" No="18" Name="关云长温酒斩华雄" Scene="Map_1005"/>
+  <Node ID="1019" No="19" Name="关云长温酒斩华雄" Scene="Map_1006"/>
+  <Node ID="1020" No="20" Name="关云长温酒斩华雄" Scene="Map_1001"/>
+</Nodes>

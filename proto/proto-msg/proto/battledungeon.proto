@@ -1,0 +1,94 @@
+
+import "common.proto";
+
+// 匹配地下城战斗请求
+message ReqMatchDungeon
+{
+	required uint32 mapid				= 1;		// 地图id
+}
+
+// 匹配地下城战斗应答
+message RspMatchDungeon
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 取消地下城战斗匹配请求
+message ReqCancelMatchDungeon
+{
+}
+
+// 取消地下城战斗匹配应答
+message RspCancelMatchDungeon
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 通知匹配完成
+message NotifyMatchComplete
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 开始地下城战斗请求
+message ReqStartDungeon
+{
+	
+}
+
+// 开始地下城战斗应答
+message RspStartDungeon
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 报告服务器进入地下城
+message RepEnterDungeon
+{
+	
+}
+
+// 通知其他玩家进入地下城
+message NotifyPlayerEnterDungeon
+{
+	repeated common.CharacterDTO chs	= 1;		// 角色数据
+}
+
+// 退出地下城战斗请求
+message ReqExitDungeon
+{
+
+}
+
+// 退出地下城战斗应答
+message RspExitDungeon
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 通知其他玩家退出地下城
+message NotifyExitDungeon
+{
+	required uint32 characterid			= 1;		// 角色id
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

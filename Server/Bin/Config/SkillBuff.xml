@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+	<Node ID="100303" Type="1" AttrType="1" AttrValue="8" Duration="5" Control="0" Effect="buff_magic"/>
+</Nodes>

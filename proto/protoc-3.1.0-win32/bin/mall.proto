@@ -1,0 +1,36 @@
+
+import "common.proto";
+
+// 请求获取商城信息
+message ReqMallInfo
+{
+	
+}
+
+// 商城信息应答
+message RspMallInfo
+{
+	repeated uint32 goods		= 1;
+}
+
+enum BuyType
+{
+	Gold = 0;
+	Diamon = 1;
+}
+
+// 请求购买商品
+message ReqBuyGoods
+{
+	required uint32 goodid		= 1;
+	required BuyType buyType	= 2;
+}
+
+// 购买商品应答
+message RspBuyGoods
+{
+	required uint32 msgtips					= 1;
+	required common.InventoryDTO inv		= 2;
+	required uint32 gold					= 3;
+	required uint32 diamond					= 4;
+}

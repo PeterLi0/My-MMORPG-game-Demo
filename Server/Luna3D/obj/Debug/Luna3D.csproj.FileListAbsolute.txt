@@ -1,0 +1,10 @@
+E:\Project\Project_ArmageddonSong\Code\Server\Bin\Luna3D.dll
+E:\Project\Project_ArmageddonSong\Code\Server\Bin\Luna3D.pdb
+E:\Project\Project_ArmageddonSong\Code\Server\Luna3D\obj\Debug\Luna3D.csprojResolveAssemblyReference.cache
+E:\Project\Project_ArmageddonSong\Code\Server\Luna3D\obj\Debug\Luna3D.dll
+E:\Project\Project_ArmageddonSong\Code\Server\Luna3D\obj\Debug\Luna3D.pdb
+E:\Project\project_bloodsword3\Server\Bin\Luna3D.dll
+E:\Project\project_bloodsword3\Server\Bin\Luna3D.pdb
+E:\Project\project_bloodsword3\Server\Luna3D\obj\Debug\Luna3D.csprojResolveAssemblyReference.cache
+E:\Project\project_bloodsword3\Server\Luna3D\obj\Debug\Luna3D.dll
+E:\Project\project_bloodsword3\Server\Luna3D\obj\Debug\Luna3D.pdb

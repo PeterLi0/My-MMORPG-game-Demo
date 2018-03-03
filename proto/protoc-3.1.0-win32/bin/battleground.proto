@@ -1,0 +1,94 @@
+
+import "common.proto";
+
+// 匹配战场战斗请求
+message ReqMatchBattleground
+{
+	required uint32 mapid				= 1;		// 地图id
+}
+
+// 匹配战场战斗应答
+message RspMatchBattleground
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 取消战场战斗匹配请求
+message ReqCancelMatchBattleground
+{
+}
+
+// 取消战场战斗匹配应答
+message RspCancelMatchBattleground
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 通知匹配完成
+message NotifyMatchComplete
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 开始战场战斗请求
+message ReqStartBattleground
+{
+	
+}
+
+// 开始战场战斗应答
+message RspStartBattleground
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 报告服务器进入战场
+message RepEnterBattleground
+{
+	
+}
+
+// 通知其他玩家进入战场
+message NotifyPlayerEnterBattleground
+{
+	repeated common.CharacterDTO chs	= 1;		// 角色数据
+}
+
+// 退出战场战斗请求
+message ReqExitBattleground
+{
+
+}
+
+// 退出战场战斗应答
+message RspExitBattleground
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 通知其他玩家退出战场
+message NotifyExitBattleground
+{
+	required uint32 characterid			= 1;		// 角色id
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

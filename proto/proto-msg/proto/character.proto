@@ -1,0 +1,55 @@
+
+import "common.proto";
+
+message ReqCharactersInfo
+{
+	required int32 characterid = 1;
+}
+
+message RespCharactersInfo
+{
+	repeated common.CharacterDTO characters	= 1;
+}
+
+message ReqAddCharacter
+{
+	required common.CharacterDTO character		= 1;
+}
+
+message RespAddCharacter
+{
+	required uint32 msgtips						= 1;
+	required common.CharacterDTO character		= 2;
+}
+
+message ReqCharacterOnline
+{
+	required int32 characterid			= 1;
+	required int32 msgtips				= 2;
+}
+
+message RespCharacterOnline
+{
+	required int32 characterid			= 1;
+	required int32 msgtips				= 2;
+}
+
+message ReqCharacterOffline
+{
+	required uint32 msgtips		= 1;
+}
+
+message RespCharacterOffline
+{
+	required uint32 msgtips		= 1;
+}
+
+message ReqDeleteCharacter
+{
+	required int32 characterid			= 1;
+}
+
+message RespDeleteCharacter
+{
+	required uint32 msgtips		= 1;
+}

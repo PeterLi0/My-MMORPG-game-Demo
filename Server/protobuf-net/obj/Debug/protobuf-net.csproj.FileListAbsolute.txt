@@ -1,0 +1,12 @@
+E:\Project\Project_BloodSword\Server\Bin\protobuf-net.xml
+E:\Project\Project_BloodSword\Server\Bin\protobuf-net.dll
+E:\Project\Project_BloodSword\Server\Bin\protobuf-net.pdb
+E:\Project\Project_BloodSword\Server\protobuf-net\obj\Debug\protobuf-net.csprojResolveAssemblyReference.cache
+E:\Project\Project_BloodSword\Server\protobuf-net\obj\Debug\protobuf-net.dll
+E:\Project\Project_BloodSword\Server\protobuf-net\obj\Debug\protobuf-net.pdb
+E:\Project\project_bloodsword3\Server\protobuf-net\obj\Debug\protobuf-net.csprojResolveAssemblyReference.cache
+E:\Project\project_bloodsword3\Server\protobuf-net\obj\Debug\protobuf-net.dll
+E:\Project\project_bloodsword3\Server\protobuf-net\obj\Debug\protobuf-net.pdb
+E:\Project\project_bloodsword3\Server\Bin\protobuf-net.xml
+E:\Project\project_bloodsword3\Server\Bin\protobuf-net.dll
+E:\Project\project_bloodsword3\Server\Bin\protobuf-net.pdb

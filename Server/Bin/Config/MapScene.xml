@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+	<Node ID="1001" LevelID="1001" RoleID="0" Position="-14.31279, 0.5, -5.29"/>
+  
+	<Node ID="1004" LevelID="1001" RoleID="3001" Position="10.88554, 0.5, -4.721536"/>
+	<Node ID="1005" LevelID="1001" RoleID="3001" Position="6.82, 0.5, 5.15"/>
+	<Node ID="1006" LevelID="1001" RoleID="3001" Position="4.280045, 0.5, 3.719212"/>
+	<Node ID="1007" LevelID="1001" RoleID="3001" Position="5.95, 0.5, 3.719212"/>
+	<Node ID="1008" LevelID="1001" RoleID="3001" Position="8.2, 0.5, 3.719212"/>
+	<Node ID="1009" LevelID="1001" RoleID="3001" Position="8.2, 0.5, 1.98"/>
+	<Node ID="1010" LevelID="1001" RoleID="3001" Position="6.19, 0.5, 1.98"/>
+	<Node ID="1011" LevelID="1001" RoleID="3001" Position="3.4, 0.5, 1.98"/>
+	<Node ID="1012" LevelID="1001" RoleID="3001" Position="3.4, 0.5, -0.12"/>
+	<Node ID="1013" LevelID="1001" RoleID="3001" Position="5.38, 0.5, -0.12"/>
+	<Node ID="1014" LevelID="1001" RoleID="3001" Position="7.07, 0.5, -0.12"/>
+  
+  
+	<Node ID="2006" LevelID="1002" RoleID="1001" Position="-14.31279, 0.5, -5.29"/>
+	<Node ID="2007" LevelID="1002" RoleID="1002" Position="4.995969, 0.5, 3.93"/>
+	<Node ID="2008" LevelID="1002" RoleID="1002" Position="-6.57, 0.5, -1.1"/>
+	<Node ID="2009" LevelID="1002" RoleID="1003" Position="10.88554, 0.5, -4.721536"/>
+	<Node ID="2010" LevelID="1002" RoleID="1003" Position="6.82, 0.5, 5.15"/>
+</Nodes>

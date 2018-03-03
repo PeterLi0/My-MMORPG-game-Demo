@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+  <Node ID="1001" LimitNumber="2" Name="纳格兰竞技场" Scene="Arena_1001" BluePosition="0,0,0" RedPosition="0,0,0"/>
+  <Node ID="1002" LimitNumber="2" Name="刀锋山竞技场" Scene="Arena_1002" BluePosition="0,0,0" RedPosition="0,0,0"/>
+  <Node ID="1003" LimitNumber="2" Name="洛丹伦竞技场" Scene="Arena_1003" BluePosition="0,0,0" RedPosition="0,0,0"/>
+  <Node ID="1004" LimitNumber="4" Name="纳格兰竞技场" Scene="Arena_1001" BluePosition="0,0,0" RedPosition="0,0,0"/>
+  <Node ID="1005" LimitNumber="4" Name="刀锋山竞技场" Scene="Arena_1002" BluePosition="0,0,0" RedPosition="0,0,0"/>
+  <Node ID="1006" LimitNumber="4" Name="洛丹伦竞技场" Scene="Arena_1003" BluePosition="0,0,0" RedPosition="0,0,0"/>
+  <Node ID="1007" LimitNumber="6" Name="纳格兰竞技场" Scene="Arena_1001" BluePosition="0,0,0" RedPosition="0,0,0"/>
+  <Node ID="1008" LimitNumber="6" Name="刀锋山竞技场" Scene="Arena_1002" BluePosition="0,0,0" RedPosition="0,0,0"/>
+  <Node ID="1009" LimitNumber="6" Name="洛丹伦竞技场" Scene="Arena_1003" BluePosition="0,0,0" RedPosition="0,0,0"/>
+</Nodes>

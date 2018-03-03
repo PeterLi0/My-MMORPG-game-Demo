@@ -1,0 +1,94 @@
+
+import "common.proto";
+
+// 匹配竞技场战斗请求
+message ReqMatchArena
+{
+	required uint32 mapid				= 1;		// 地图id
+}
+
+// 匹配竞技场战斗应答
+message RspMatchArena
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 取消竞技场战斗匹配请求
+message ReqCancelMatchArena
+{
+}
+
+// 取消竞技场战斗匹配应答
+message RspCancelMatchArena
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 通知匹配完成
+message NotifyMatchComplete
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 开始竞技场战斗请求
+message ReqStartArena
+{
+	
+}
+
+// 开始竞技场战斗应答
+message RspStartArena
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 报告服务器进入竞技场
+message RepEnterArena
+{
+	
+}
+
+// 通知其他玩家进入竞技场
+message NotifyPlayerEnterArena
+{
+	repeated common.CharacterDTO chs	= 1;		// 角色数据
+}
+
+// 退出竞技场战斗请求
+message ReqExitArena
+{
+
+}
+
+// 退出竞技场战斗应答
+message RspExitArena
+{
+	required common.MsgTips	msgtips		= 1;		// 消息提示
+}
+
+// 通知其他玩家退出竞技场
+message NotifyExitArena
+{
+	required uint32 characterid			= 1;		// 角色id
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

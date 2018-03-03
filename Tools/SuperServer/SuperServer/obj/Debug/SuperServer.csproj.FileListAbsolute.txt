@@ -1,0 +1,16 @@
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperServer.exe.config
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperServer.exe
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperServer.pdb
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\obj\Debug\SuperServer.exe
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\obj\Debug\SuperServer.pdb
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperSocket.Common.dll
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperSocket.SocketBase.dll
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperSocket.SocketEngine.dll
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\log4net.dll
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperSocket.Common.pdb
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperSocket.Common.xml
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperSocket.SocketBase.pdb
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperSocket.SocketBase.xml
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperSocket.SocketEngine.pdb
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\bin\Debug\SuperSocket.SocketEngine.xml
+E:\Project\project_bloodsword3\Tools\SuperServer\SuperServer\obj\Debug\SuperServer.csprojResolveAssemblyReference.cache

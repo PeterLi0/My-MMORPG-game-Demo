@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Nodes>
+  <Node ID ="1001" ItemID ="1101" Gold ="80" Diamond ="8" />
+  <Node ID ="1002" ItemID ="1102" Gold ="80" Diamond ="8" />
+  <Node ID ="1003" ItemID ="1103" Gold ="80" Diamond ="8" />
+  
+  <Node ID ="1004" ItemID ="1201" Gold ="80" Diamond ="8" />
+  <Node ID ="1005" ItemID ="1202" Gold ="80" Diamond ="8" />
+  <Node ID ="1006" ItemID ="1203" Gold ="80" Diamond ="8" />
+  
+  <Node ID ="1007" ItemID ="1301" Gold ="80" Diamond ="8" />
+  <Node ID ="1008" ItemID ="1302" Gold ="80" Diamond ="8" />
+  <Node ID ="1009" ItemID ="1303" Gold ="80" Diamond ="8" />
+  <Node ID ="1010" ItemID ="1304" Gold ="80" Diamond ="8" />
+</Nodes>

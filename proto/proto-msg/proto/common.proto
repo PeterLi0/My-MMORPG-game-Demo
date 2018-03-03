@@ -1,0 +1,139 @@
+
+package common;
+
+
+// 关卡类型
+enum BattleType
+{    
+    World = 0;			// 世界战斗
+	Arena = 1;			// 竞技场
+	Battleground = 2;	// 战场
+	Dungeon = 3;		// 地下城
+}
+
+// 阵营
+enum Race
+{	
+	Neutrality = 0;			// 中立
+	Alliance = 1;			// 联盟
+	Horde  = 2;				// 部落
+}
+
+// 角色类型
+enum CharacterType
+{
+	Player = 0;         // 英雄
+	Monster = 1;        // 野怪
+	Npc	= 2;			// Npc
+}
+
+// 职业类型
+enum Job
+{
+	Brave = 0;			// 战士
+	Mage = 1;			// 法师
+	Hunter = 2;			// 猎人
+	Priest = 3;			// 牧师
+	Bandit = 4;			// 刺客
+}
+
+
+message Vector
+{
+	required float x		= 1;
+	required float y		= 2;
+	required float z 		= 3;
+}
+
+
+message CharacterDTO
+{
+	required int32 id			= 1;        // 角色id
+	required int32 accountid	= 2;   		// 玩家所属账号
+	required string name		= 3;     	// 玩家名
+	required int32 race			= 4;        // 种族
+	required int32 job			= 5;     	// 职业
+	required int32 gender		= 6;      	// 性别
+	required int32 level		= 7;       	// 等级
+	required int32 exp			= 8;        // 经验
+	required int32 diamond		= 9;     	// 钻石
+	required int32 gold			= 10;       // 金币
+	required float pos_x		= 11;     	// 初始坐标
+	required float pos_y		= 12;
+	required float pos_z		= 13;
+	required int32 cfgid		= 14;       // 角色配置id
+	required int32 mapid		= 15;		// 角色当前地图ID
+}
+
+message InventoryDTO
+{
+	required int32 slot			= 1;
+	required int32 itemid		= 2;
+	required int32 num			= 3;
+}
+
+message MailDTO
+{
+	required int32 id				= 1;
+	required int32 sender_id		= 2;
+	required int32 receiver_id		= 3;
+	required string subject			= 4;
+	required string body			= 5;
+	required string deliver_time	= 6;
+	required int32 money			= 7;
+	required int32 has_items		= 8;
+	repeated Mail_ItemDTO items		= 9;
+}
+
+message Mail_ItemDTO
+{
+	required int32 mail_id			= 1;
+	required int32 item_id			= 2;
+	required int32 item_num			= 3;
+}
+
+message FriendInfo
+{
+	required uint32 characterid		= 1;
+	required string name			= 2;
+	required bool isonline			= 3;
+}
+
+
+/// <summary>
+/// 消息提示
+/// </summary>
+enum MsgTips
+{
+    NoAccount = 		1001;         // 账号不存在
+    AccountHasOnline = 	1002;         // 账号已经在线
+    PasswordError = 	1003;         // 密码错误
+    InputError = 		1004;         // 输入不合法
+    LoginSuccess = 		1005;         // 登录成功
+
+    RegisterSuccess = 	1006;         // 注册成功
+    AccountRepeat = 	1007;         // 注册失败，账号重复
+    AccountInvalid = 	1008;         // 账号不合法
+    PasswordInvalid = 	1009;         // 密码不合法
+    AccountOffline = 	1010;         // 账号离线成功
+
+
+    CharCreateSuccess 	= 1011;       // 角色创建成功
+    NameRepeat 			= 1012;       // 角色名重复
+    CharOnlineSuccess 	= 1013;       // 角色登录
+    CharOfflineSuccess 	= 1014;       // 角色离线
+    DeleteCharSuccess 	= 1015;       // 角色删除成功
+    CharHasOnline 		= 1016;       // 角色已经在线
+
+    EquipSuccess 		= 1021;       // 装备成功
+    UnloadSuccess 		= 1022;       // 卸载成功
+    DeleteItemSuccess 	= 1023;       // 物品删除成功
+
+    DeleteMailSuccess 	= 1031;       // 邮件删除成功
+    RecvItemSuccess 	= 1032;       // 邮件物品领取成功
+
+    BuyGoodsSuccess 	= 1041;       // 购买商品成功
+    GoldNotEnough 		= 1042;       // 金币不足
+    DiamondNotEnough 	= 1043;       // 钻石不足
+}
+

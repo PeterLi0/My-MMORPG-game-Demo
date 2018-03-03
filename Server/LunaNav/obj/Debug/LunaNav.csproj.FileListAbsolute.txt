@@ -1,0 +1,10 @@
+E:\Project\Project_ArmageddonSong\Code\Server\Bin\LunaNav.dll
+E:\Project\Project_ArmageddonSong\Code\Server\Bin\LunaNav.pdb
+E:\Project\Project_ArmageddonSong\Code\Server\LunaNav\obj\Debug\LunaNav.csprojResolveAssemblyReference.cache
+E:\Project\Project_ArmageddonSong\Code\Server\LunaNav\obj\Debug\LunaNav.dll
+E:\Project\Project_ArmageddonSong\Code\Server\LunaNav\obj\Debug\LunaNav.pdb
+E:\Project\project_bloodsword3\Server\Bin\LunaNav.dll
+E:\Project\project_bloodsword3\Server\Bin\LunaNav.pdb
+E:\Project\project_bloodsword3\Server\LunaNav\obj\Debug\LunaNav.csprojResolveAssemblyReference.cache
+E:\Project\project_bloodsword3\Server\LunaNav\obj\Debug\LunaNav.dll
+E:\Project\project_bloodsword3\Server\LunaNav\obj\Debug\LunaNav.pdb

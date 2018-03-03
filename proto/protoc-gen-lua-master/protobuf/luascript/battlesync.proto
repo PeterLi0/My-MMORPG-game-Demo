@@ -1,0 +1,52 @@
+
+import "common.proto";
+
+// 角色移动请求
+message ReqCharacterMove
+{
+	optional common.Vector	dest		= 1;
+}
+
+// 通知角色移动
+message NotifyCharacterMove
+{
+	optional uint32 characterid			= 1;
+	optional common.Vector position		= 2;
+}
+
+// 通知角色停止移动
+message NotifyCharacterIdle
+{
+	optional uint32 characterid			= 1;	
+	optional common.Vector	pos			= 2;
+}
+
+// 角色攻击请求
+message ReqCharacterAttack
+{
+	optional uint32 skillid				= 1;
+	optional uint32 targetID 			= 2;
+}
+
+// 通知角色攻击
+message NotifyCharacterAttack
+{
+	optional uint32 characterid			= 1;
+	optional uint32 targetid			= 2;
+	optional uint32 skillid				= 3;
+	optional common.Vector	pos			= 4;
+}
+
+// 通知角色血量改变
+message NotifyHPChange
+{
+	optional uint32 targetid			= 1;
+	optional int32 hp					= 2;
+}
+
+// 通知角色死亡
+message NotifyCharacterDie
+{
+	optional uint32 characterid 		= 1;
+}
+
