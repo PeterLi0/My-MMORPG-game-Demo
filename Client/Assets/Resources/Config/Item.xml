@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+	<Node ID="1101" ItemType="1" EquipType="1" Name="头盔1" Icon="INV_Helmet_01" AttrType="1" AttrValue="0"/>
+	<Node ID="1102" ItemType="1" EquipType="1" Name="头盔2" Icon="INV_Helmet_02" AttrType="1" AttrValue="0"/>
+	<Node ID="1103" ItemType="1" EquipType="1" Name="头盔3" Icon="INV_Helmet_03" AttrType="1" AttrValue="0"/>
+	
+	<Node ID="1201" ItemType="1" EquipType="2" Name="肩甲1" Icon="INV_Shoulder_01" AttrType="1" AttrValue="0"/>
+	<Node ID="1202" ItemType="1" EquipType="2" Name="肩甲2" Icon="INV_Shoulder_02" AttrType="1" AttrValue="0"/>
+	<Node ID="1203" ItemType="1" EquipType="2" Name="肩甲3" Icon="INV_Shoulder_03" AttrType="1" AttrValue="0"/>
+	
+	<Node ID="1301" ItemType="1" EquipType="3" Name="胸甲1" Icon="INV_Chest_Chain" AttrType="1" AttrValue="0"/>
+	<Node ID="1302" ItemType="1" EquipType="3" Name="胸甲2" Icon="INV_Chest_Chain_03" AttrType="1" AttrValue="0"/>
+	<Node ID="1303" ItemType="1" EquipType="3" Name="胸甲3" Icon="INV_Chest_Chain_04" AttrType="1" AttrValue="0"/>
+	<Node ID="1304" ItemType="1" EquipType="3" Name="胸甲4" Icon="INV_Chest_Chain_05" AttrType="1" AttrValue="0"/>
+ 
+</Nodes>

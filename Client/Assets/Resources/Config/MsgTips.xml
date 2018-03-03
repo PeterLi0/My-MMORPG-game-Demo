@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<Nodes>
+  <Node ID ="1001" Value ="账号不存在"/>
+  <Node ID ="1002" Value ="账号已经在线"/>
+  <Node ID ="1003" Value ="密码错误"/>
+  <Node ID ="1004" Value ="输入不合法"/>
+  <Node ID ="1005" Value ="登录成功"/>
+  <Node ID ="1006" Value ="注册成功"/>
+  <Node ID ="1007" Value ="注册失败，账号重复"/>
+  <Node ID ="1008" Value ="账号不合法"/>
+  <Node ID ="1009" Value ="密码不合法"/>
+
+  <Node ID ="1011" Value ="角色创建成功"/>
+  <Node ID ="1012" Value ="角色名重复"/>
+  <Node ID ="1013" Value ="角色上线"/>
+</Nodes>

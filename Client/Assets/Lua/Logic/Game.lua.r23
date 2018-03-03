@@ -1,0 +1,71 @@
+
+
+require "Logic/LuaClass"
+require "Logic/WindowManager"
+
+require "Common/functions"
+require "Common/define"
+
+
+require "View/LoginWnd"
+
+require "Handler/AccountHandler"
+require "Handler/CharacterHandler"
+
+--管理器--
+Game = {};
+local this = Game;
+
+local game; 
+local transform;
+local gameObject;
+local WWW = UnityEngine.WWW;
+
+--[[
+function Game.InitViewPanels()
+	for i = 1, #PanelNames do
+		require ("View/"..tostring(PanelNames[i]))
+	end
+end
+--]]
+
+--初始化完成，发送链接服务器信息--
+function Game.OnInitOK()
+
+    AccountHandler.Register();
+    CharacterHandler.Register();
+
+    AppConst.SocketPort = 6650;
+    AppConst.SocketAddress = "192.168.21.21";
+    networkMgr:SendConnect();
+
+
+
+    WindowManager.Init();
+    local ctrl = WindowManager.GetWnd(CtrlNames.LoginWnd);
+    --if ctrl ~= nil and AppConst.ExampleMode == 1 then
+        ctrl:Open();
+    --end
+
+
+    coroutine.start(this.test_coroutine);
+    logWarn('LuaFramework InitOK--->>>');
+end
+
+--测试协同--
+function Game.test_coroutine()
+    logWarn("1111");
+    coroutine.wait(1);
+    logWarn("2222");
+
+    local www = WWW("http://bbs.ulua.org/readme.txt");
+    coroutine.www(www);
+    logWarn(www.text);
+end
+
+
+--销毁--
+function Game.OnDestroy()
+	--logWarn('OnDestroy--->>>');
+end
+

@@ -1,0 +1,42 @@
+---
+--- Created by shang.
+--- DateTime: 2017/12/19 12:12
+---
+
+require("Common/msgid")
+AccountHandler = {};
+local this = AccountHandler;
+
+function AccountHandler.Register()
+    logError("Register msg");
+    networkMgr:Register(1002, AccountHandler.OnRespLogin);
+    networkMgr:Register(1004, AccountHandler.OnRegisterResp);
+end
+
+function AccountHandler.OnRespLogin(m)
+
+    local msg = account_pb.RespLogin();
+    local data = ByteArray.GetBuffer(m.message);
+    msg:ParseFromString(data);
+
+    logError(msg.msgtips);
+
+
+    local msgWnd = WindowManager.GetWnd(CtrlNames.MessageBox);
+
+    msgWnd.Open();
+    msgWnd.Show(msg.msgtips);
+
+end
+
+
+function AccountHandler.OnRegisterResp(m)
+    local rsp = account_pb.RespRegister();
+    local data = ByteArray.GetBuffer(m.message);
+    rsp:ParseFromString(data);
+    logError(rsp.msgtips);
+
+    local msgWnd = WindowManager.GetWnd(CtrlNames.MessageBox);
+    msgWnd.Open();
+    msgWnd.Show(rsp.msgtips);
+end

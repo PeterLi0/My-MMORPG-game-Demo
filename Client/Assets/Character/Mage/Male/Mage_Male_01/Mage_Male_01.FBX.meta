@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 3b695d423311c3c45886d30ad9fca1b8
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Staff11_SM
+    100002: //RootNode
+    100004: Bone_Staff
+    100006: Bip01 R Finger1
+    100008: Bip01 R Finger0
+    100010: Bip01 R Hand
+    100012: Bip01 R Forearm
+    100014: Bip01 L Finger1
+    100016: Bip01 L Finger0
+    100018: Bip01 L Hand
+    100020: Bip01 L Forearm
+    100022: Bip01 HeadNub
+    100024: Bip01 Head
+    100026: Bip01 Neck
+    100028: Bip01 Spine2
+    100030: Bip01 Spine1
+    100032: Bip01 R Toe0Nub
+    100034: Bip01 R Toe0
+    100036: Bip01 R Foot
+    100038: Bip01 R Calf
+    100040: Bip01 R Thigh
+    100042: Bip01 L Toe0Nub
+    100044: Bip01 L Toe0
+    100046: Bip01 L Foot
+    100048: Bip01 L Calf
+    100050: Bip01 L Thigh
+    100052: Bip01 Spine
+    100054: Bip01 Pelvis
+    100056: Bip01 Footsteps
+    100058: Bip01
+    100060: Mage_Male_01
+    100062: Bip01 R Finger1Nub
+    100064: Bip01 R Finger11
+    100066: Bip01 R Finger0Nub
+    100068: Bip01 R Finger01
+    100070: Bip01 R UpperArm
+    100072: Bip01 R Clavicle
+    100074: Bip01 L Finger1Nub
+    100076: Bip01 L Finger11
+    100078: Bip01 L Finger0Nub
+    100080: Bip01 L Finger01
+    100082: Bip01 L UpperArm
+    100084: Bip01 L Clavicle
+    100086: Bone02
+    100088: Bone03
+    100090: Bone04
+    100092: Bone05
+    100094: Bone06
+    100096: Bone07
+    100098: Bone08
+    100100: Bone09
+    100102: Bone09(mirrored)
+    100104: Bone10
+    100106: Bone10(mirrored)
+    100108: Bone11
+    100110: Bone11(mirrored)
+    100112: Bone12
+    100114: Bone13
+    100116: Bone14
+    100118: Bone15
+    100120: Bone16
+    100122: Bone17
+    100124: Bone18
+    100126: Bone19
+    100128: Bone20
+    100130: Bone21
+    100132: Bone22
+    100134: Bone23
+    100136: Bone_Caiji
+    100138: Bone_Chibang
+    100140: Bone_Yun
+    100142: Bone_Zuoqi
+    100144: Mage_Male_Lian
+    100146: Mage_Male_TouFa
+    400000: Staff11_SM
+    400002: //RootNode
+    400004: Bone_Staff
+    400006: Bip01 R Finger1
+    400008: Bip01 R Finger0
+    400010: Bip01 R Hand
+    400012: Bip01 R Forearm
+    400014: Bip01 L Finger1
+    400016: Bip01 L Finger0
+    400018: Bip01 L Hand
+    400020: Bip01 L Forearm
+    400022: Bip01 HeadNub
+    400024: Bip01 Head
+    400026: Bip01 Neck
+    400028: Bip01 Spine2
+    400030: Bip01 Spine1
+    400032: Bip01 R Toe0Nub
+    400034: Bip01 R Toe0
+    400036: Bip01 R Foot
+    400038: Bip01 R Calf
+    400040: Bip01 R Thigh
+    400042: Bip01 L Toe0Nub
+    400044: Bip01 L Toe0
+    400046: Bip01 L Foot
+    400048: Bip01 L Calf
+    400050: Bip01 L Thigh
+    400052: Bip01 Spine
+    400054: Bip01 Pelvis
+    400056: Bip01 Footsteps
+    400058: Bip01
+    400060: Mage_Male_01
+    400062: Bip01 R Finger1Nub
+    400064: Bip01 R Finger11
+    400066: Bip01 R Finger0Nub
+    400068: Bip01 R Finger01
+    400070: Bip01 R UpperArm
+    400072: Bip01 R Clavicle
+    400074: Bip01 L Finger1Nub
+    400076: Bip01 L Finger11
+    400078: Bip01 L Finger0Nub
+    400080: Bip01 L Finger01
+    400082: Bip01 L UpperArm
+    400084: Bip01 L Clavicle
+    400086: Bone02
+    400088: Bone03
+    400090: Bone04
+    400092: Bone05
+    400094: Bone06
+    400096: Bone07
+    400098: Bone08
+    400100: Bone09
+    400102: Bone09(mirrored)
+    400104: Bone10
+    400106: Bone10(mirrored)
+    400108: Bone11
+    400110: Bone11(mirrored)
+    400112: Bone12
+    400114: Bone13
+    400116: Bone14
+    400118: Bone15
+    400120: Bone16
+    400122: Bone17
+    400124: Bone18
+    400126: Bone19
+    400128: Bone20
+    400130: Bone21
+    400132: Bone22
+    400134: Bone23
+    400136: Bone_Caiji
+    400138: Bone_Chibang
+    400140: Bone_Yun
+    400142: Bone_Zuoqi
+    400144: Mage_Male_Lian
+    400146: Mage_Male_TouFa
+    4300000: Mage_Male_01
+    4300002: Staff11_SM
+    4300004: Mage_Male_TouFa
+    4300006: Mage_Male_Lian
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: Staff11_SM
+    13700002: Mage_Male_01
+    13700004: Mage_Male_Lian
+    13700006: Mage_Male_TouFa
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

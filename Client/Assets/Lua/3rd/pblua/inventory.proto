@@ -1,0 +1,58 @@
+
+import "common.proto";
+
+
+
+message ReqGetItemInfo
+{
+}
+
+message RespItemInfos
+{
+	repeated common.InventoryDTO inventorys = 1;
+	repeated common.InventoryDTO equips = 2; 
+}
+
+message ReqEquipItem
+{
+	required int32 slot					= 1;
+	required int32 itemid				= 2;
+}
+
+message RespEquipItem
+{
+	required common.InventoryDTO equip		= 1;
+	required common.InventoryDTO inv		= 2;
+}
+
+message ReqUnloadItem
+{
+	required int32 slot					= 1;
+	required int32 itemid				= 2;
+}
+
+message RespUnloadItem
+{
+	required common.InventoryDTO equip		= 1;
+	required common.InventoryDTO inv		= 2;
+}
+
+enum DeleteType
+{
+	Equip = 1;
+	Inv = 2;
+}
+
+message ReqDeleteItem
+{
+	required DeleteType deleteType			= 1;
+	required int32 slot						= 2;
+}
+
+message RespDeleteItem
+{
+	required DeleteType deleteType			= 1;
+	required common.InventoryDTO dto		= 2;
+}
+
+

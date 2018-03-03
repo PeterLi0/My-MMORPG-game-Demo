@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+	<Node ID="100204" AreaCenter="2" AreaShape="1" AreaArg1="5" Duration="3" Interval="0.5" Damage="30" Effect="trap_snow"/>
+</Nodes>

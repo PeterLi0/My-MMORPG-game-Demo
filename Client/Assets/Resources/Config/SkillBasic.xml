@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+	<Node ID="100101" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="70" AnimName="Attack1" CD="3" HitTime="0.2" HitNum="1" HitInterval="0" SkillType="1" MaxRange="4" AffectSide="2" IgnoreTarget="0" CastEffect="melee_1"/>
+	<Node ID="100102" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="100" AnimName="Attack3" CD="6" HitTime="1.5" HitNum="1" HitInterval="0" SkillType="1" MaxRange="10" AffectSide="2" IgnoreTarget="0" CastEffect=""/>
+	<Node ID="100103" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="120" AnimName="Attack5" CD="4" HitTime="0.8" HitNum="1" HitInterval="0" SkillType="1" MaxRange="6" AffectSide="2" IgnoreTarget="0" CastEffect=""/>
+	<Node ID="100104" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="140" AnimName="Attack3" CD="10" HitTime="1.5" HitNum="1" HitInterval="0" SkillType="1" MaxRange="4" AffectSide="2" IgnoreTarget="0" CastEffect="melee_1"/>
+  
+  
+	<Node ID="100201" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="50" AnimName="Attack1" CD="2" HitTime="0.5" HitNum="1" HitInterval="0" SkillType="1" MaxRange="10" AffectSide="2" IgnoreTarget="0" CastEffect=""/>
+	<Node ID="100202" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="60" AnimName="Attack4" CD="2" HitTime="0.8" HitNum="3" HitInterval="0.3" SkillType="1" MaxRange="10" AffectSide="2" IgnoreTarget="0" CastEffect=""/>
+	<Node ID="100203" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="70" AnimName="Attack3" CD="2" HitTime="1.3" HitNum="1" HitInterval="0" SkillType="1" MaxRange="10" AffectSide="2" IgnoreTarget="0" CastEffect=""/>
+  <Node ID="100204" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="50" AnimName="Attack3" CD="2" HitTime="1.3" HitNum="1" HitInterval="0" SkillType="1" MaxRange="10" AffectSide="2" IgnoreTarget="0" CastEffect=""/>
+  
+	<Node ID="100207" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="65" AnimName="Attack3" CD="2" HitTime="1.3" HitNum="1" HitInterval="0" SkillType="1" MaxRange="20" AffectSide="2" IgnoreTarget="0" CastEffect=""/>
+	
+  <Node ID="100301" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="50" AnimName="attack" CD="2" HitTime="0.5" HitNum="1" HitInterval="0" SkillType="1" MaxRange="10" AffectSide="2" IgnoreTarget="0" CastEffect=""/>
+  <Node ID="100302" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="65" AnimName="attack2" CD="2" HitTime="1.3" HitNum="1" HitInterval="0" SkillType="1" MaxRange="10" AffectSide="2" IgnoreTarget="0" CastEffect=""/>
+  <Node ID="100303" Name="xxx" Desc="xxx" NeedTarget="true" BasicNum="0" AnimName="skill" CD="2" HitTime="1.3" HitNum="1" HitInterval="0" SkillType="1" MaxRange="10" AffectSide="1" IgnoreTarget="0" CastEffect=""/>
+
+  <Node ID="200101" Name="xxx" Desc="xxx" BasicNum="10" AnimName="Attack1" CD="3" HitTime="0.5" HitNum="1" HitInterval="0" SkillType="1" MaxRange="2" AffectSide="2" IgnoreTarget="0" CastEffect="melee_1"/>
+</Nodes>

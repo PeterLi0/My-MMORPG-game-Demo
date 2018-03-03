@@ -1,0 +1,36 @@
+---
+--- Created by shang.
+--- DateTime: 2017/12/19 12:12
+---
+
+AccountHandler = {};
+local this = AccountHandler;
+
+function AccountHandler.Register()
+    networkMgr:Register(1002, AccountHandler.OnRespLogin);
+    networkMgr:Register(1004, AccountHandler.OnRegisterResp);
+end
+
+function AccountHandler.OnRespLogin(m)
+    --local decode = protobuf.decode("RespLogin" , m.message)
+    local msg = account_pb.RespLogin();
+
+    local data = ByteArray.GetBuffer(m.message);
+    msg:ParseFromString(data);
+
+    --logError(msg.account);
+    logError(msg.msgtips);
+
+    local msgWnd = CtrlManager.GetCtrl(CtrlNames.Message);
+    msgWnd.Open();
+end
+
+
+function AccountHandler.OnRegisterResp(m)
+    local rsp = account_pb.RespRegister();
+
+    local data = ByteArray.GetBuffer(m.message);
+    msg:ParseFromString(data);
+
+
+end

@@ -1,0 +1,106 @@
+ManifestFileVersion: 0
+CRC: 3506674023
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: promptpanel.unity3d
+      Dependencies:
+        Dependency_0: prompt_asset.unity3d
+        Dependency_1: shared_asset.unity3d
+    Info_1:
+      Name: messagepanel.unity3d
+      Dependencies:
+        Dependency_0: shared_asset.unity3d
+    Info_2:
+      Name: prompt_asset.unity3d
+      Dependencies: {}
+    Info_3:
+      Name: shared_asset.unity3d
+      Dependencies: {}
+    Info_4:
+      Name: c1001.unity3d
+      Dependencies: {}
+    Info_5:
+      Name: c1002.unity3d
+      Dependencies: {}
+    Info_6:
+      Name: c1003.unity3d
+      Dependencies: {}
+    Info_7:
+      Name: c1004.unity3d
+      Dependencies: {}
+    Info_8:
+      Name: c1005.unity3d
+      Dependencies: {}
+    Info_9:
+      Name: c1006.unity3d
+      Dependencies: {}
+    Info_10:
+      Name: c1007.unity3d
+      Dependencies: {}
+    Info_11:
+      Name: m1001.unity3d
+      Dependencies: {}
+    Info_12:
+      Name: arenawnd.unity3d
+      Dependencies: {}
+    Info_13:
+      Name: bagwnd.unity3d
+      Dependencies: {}
+    Info_14:
+      Name: battlewnd.unity3d
+      Dependencies: {}
+    Info_15:
+      Name: bloodtext.unity3d
+      Dependencies: {}
+    Info_16:
+      Name: buytypewnd.unity3d
+      Dependencies: {}
+    Info_17:
+      Name: createrolewnd.unity3d
+      Dependencies: {}
+    Info_18:
+      Name: floatingbar.unity3d
+      Dependencies: {}
+    Info_19:
+      Name: goldinfo.unity3d
+      Dependencies: {}
+    Info_20:
+      Name: goodswnd.unity3d
+      Dependencies: {}
+    Info_21:
+      Name: inventoryequipwnd.unity3d
+      Dependencies: {}
+    Info_22:
+      Name: inventorywnd.unity3d
+      Dependencies: {}
+    Info_23:
+      Name: loadingwnd.unity3d
+      Dependencies: {}
+    Info_24:
+      Name: loginwnd.unity3d
+      Dependencies: {}
+    Info_25:
+      Name: mailcontentwnd.unity3d
+      Dependencies: {}
+    Info_26:
+      Name: mailwnd.unity3d
+      Dependencies: {}
+    Info_27:
+      Name: mainwnd.unity3d
+      Dependencies: {}
+    Info_28:
+      Name: mallwnd.unity3d
+      Dependencies: {}
+    Info_29:
+      Name: messagebox.unity3d
+      Dependencies: {}
+    Info_30:
+      Name: selectlevelwnd.unity3d
+      Dependencies: {}
+    Info_31:
+      Name: selectrolewnd.unity3d
+      Dependencies: {}
+    Info_32:
+      Name: storewnd.unity3d
+      Dependencies: {}

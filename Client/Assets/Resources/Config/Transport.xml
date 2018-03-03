@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by et8 (et8) -->
+<Nodes>
+	<Node ID="1001" MapID="1001" Position="0,0,0" TargetMapID="1002"/>
+	<Node ID="1002" MapID="1002" Position="0,0,0" TargetMapID="1003"/>
+	<Node ID="1003" MapID="1003" Position="0,0,0" TargetMapID="1004"/>
+	<Node ID="1004" MapID="1004" Position="0,0,0" TargetMapID="1005"/>
+	<Node ID="1005" MapID="1005" Position="0,0,0" TargetMapID="1001"/>
+  
+	<Node ID="1006" MapID="1006" Position="0,0,0" TargetMapID="1007"/>
+	<Node ID="1007" MapID="1007" Position="0,0,0" TargetMapID="1008"/>
+	<Node ID="1008" MapID="1008" Position="0,0,0" TargetMapID="1009"/>
+	<Node ID="1009" MapID="1009" Position="0,0,0" TargetMapID="1010"/>
+	<Node ID="1010" MapID="1010" Position="0,0,0" TargetMapID="1001"/>
+
+  <Node ID="1011" MapID="1001" Position="0,0,0" TargetMapID="1009"/>
+  <Node ID="1012" MapID="1001" Position="0,0,0" TargetMapID="1010"/>
+
+  <Node ID="1013" MapID="1006" Position="0,0,0" TargetMapID="1004"/>
+  <Node ID="1014" MapID="1006" Position="0,0,0" TargetMapID="1005"/>
+</Nodes>

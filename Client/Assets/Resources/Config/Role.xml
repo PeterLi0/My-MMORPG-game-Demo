@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by nAcer (Stu) -->
+<Nodes>
+	<Node ID="1001" ModelName="C1001" RoleName="盖伦" RoleType="1" Hp="600" Mp="100" MoveSpeed="5" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="Idle" MoveAnim="Run"/>
+	<Node ID="1002" ModelName="C1002" RoleName="麦迪文" RoleType="1" Hp="500" Mp="100" MoveSpeed="5" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="Idle" MoveAnim="Run"/>
+	<Node ID="1003" ModelName="C1003" RoleName="辛德拉" RoleType="1" Hp="480" Mp="100" MoveSpeed="2" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="idle" MoveAnim="walk"/>
+	<Node ID="1004" ModelName="C1004" RoleName="剑圣" RoleType="1" Hp="550" Mp="100" MoveSpeed="5" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="idle" MoveAnim="walk"/>
+	<Node ID="1005" ModelName="C1005" RoleName="艾希" RoleType="1" Hp="510" Mp="100" MoveSpeed="5" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="idle" MoveAnim="walk"/>
+	<Node ID="1006" ModelName="C1006" RoleName="塞恩" RoleType="1" Hp="600" Mp="100" MoveSpeed="5" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="idle" MoveAnim="walk"/>
+  
+	<Node ID="3001" ModelName="M1001" RoleName="愚蠢怪" Behavior="StupidBehavior" RoleType="3" Hp="500" Mp="100" MoveSpeed="5" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="Idle" MoveAnim="Run"/>
+	<Node ID="3002" ModelName="M1001" RoleName="巡逻怪" Behavior="PatrolBehavior" RoleType="3" Hp="500" Mp="100" MoveSpeed="5" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="Idle" MoveAnim="Run"/>
+	<Node ID="3003" ModelName="M1001" RoleName="被动攻击怪" Behavior="NegativeBehavior" RoleType="3" Hp="500" Mp="100" MoveSpeed="5" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="Idle" MoveAnim="Run"/>
+	<Node ID="3004" ModelName="M1001" RoleName="主动攻击怪" Behavior="PositiveBehavior" RoleType="3" Hp="500" Mp="100" MoveSpeed="5" AttackSpeed="1" Defend="2" Sight="10" IdleAnim="Idle" MoveAnim="Run"/>
+</Nodes>

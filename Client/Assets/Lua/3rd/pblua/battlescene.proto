@@ -1,0 +1,47 @@
+
+import "common.proto";
+
+message ReqEnterMap
+{
+}
+
+message RspEnterMap
+{
+	
+}
+
+
+// 通知角色离开地图
+message NotifyCharacterExitMap
+{
+	required int32 characterid				= 1;
+}
+
+
+//  通知角色上线
+message NotifyCharacterOnline
+{
+	required common.CharacterDTO character	= 1;
+}
+
+// 请求获取场景中所有角色信息
+message ReqSceneCharacters
+{
+	required int32 characterid				= 1;
+}
+
+// 获取场景中所有角色信息应答
+message RespSceneCharacters
+{
+	repeated common.CharacterDTO characters	= 1;
+}
+
+// 通知角色离线
+message NotifyCharacterOffline
+{
+	required int32 characterid				= 1;
+}
+
+
+
+

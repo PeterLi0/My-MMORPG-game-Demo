@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by et8 (et8) -->
+<Nodes>
+	<Node ID="1001" LimitNumber="10" Name="战歌峡谷" Scene="Battleground_1001" BluePosition="0,0,0" RedPosition="0,0,0"/>
+	<Node ID="1002" LimitNumber="20" Name="阿拉希盆地" Scene="Battleground_1002" BluePosition="0,0,0" RedPosition="0,0,0"/>
+	<Node ID="1003" LimitNumber="30" Name="奥克兰特山谷" Scene="Battleground_1003" BluePosition="0,0,0" RedPosition="0,0,0"/>
+</Nodes>
